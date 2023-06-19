@@ -1,2 +1,2 @@
 # Love2d-mobile-console
-A mobile console to love2d 
+A undepedent mobile console to use on love2d
