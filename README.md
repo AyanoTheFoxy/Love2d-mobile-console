@@ -17,6 +17,7 @@ end
 
 function love.draw()
     console:render() --draw the console in the screen
+    console:print("hello world") --draw things on console
 end
 
 function love.update(dt)
