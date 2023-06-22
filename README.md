@@ -2,13 +2,13 @@
 A indepedent mobile console on version 0.0.5 to use on love2d created by Ayano the Foxy with the help of Choco on 24th may 2023 made with the lua languague
 
 # Features
-- sample of use
-- haven't external dependences
+- simple of use
+- don't need external dependences
 - have a list of commands to use
 - text colors included
 
 # How to use
-To use the console you need download the code and put it in your program, using the love2d making like
+To use the console you need download the code and put it in your program, looks like this
 
 ```lua
 function love.load()
@@ -33,4 +33,4 @@ end
 - blue
 - purple
 - yellow
-- ciano
+- cyan
