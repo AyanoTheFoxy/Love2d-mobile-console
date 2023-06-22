@@ -1,5 +1,5 @@
 # Love2d-mobile-console
-A undepedent mobile console on version 0.0.5 to use on love2d created by Ayano the Foxy with the help of Choco on 24th may 2023 made with the lua languague
+A indepedent mobile console on version 0.0.5 to use on love2d created by Ayano the Foxy with the help of Choco on 24th may 2023 made with the lua languague
 
 # Features
 - sample of use
@@ -13,7 +13,7 @@ To use the console you need download the code and put it in your program, using 
 ```lua
 function love.load()
     console = require 'console' --take the console script
-    console:new(0, 0) --create a new console  at the position 0
+    console:new(0, 0) --create a new console  at the position x: 0 y: 0
 end
 
 function love.draw()
