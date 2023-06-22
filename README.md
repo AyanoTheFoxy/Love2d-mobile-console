@@ -5,9 +5,10 @@ A undepedent mobile console on version 0.0.5 to use on love2d created by Ayano t
 - sample of use
 - haven't external dependences
 - have a list of commands to use
+- text colors included
 
 # How to use
-To use the console you need download the code and put it in your program, using the love2d do like
+To use the console you need download the code and put it in your program, using the love2d making like
 
 ```lua
 function love.load()
@@ -17,7 +18,8 @@ end
 
 function love.draw()
     console:render() --draw the console in the screen
-    console:print("hello world") --draw things on console
+    console:print("hello world", 0, 0, 0) --draw things on console the text color is r: 0, g: 0, b: 0
+    console:print("wow im yellow", "yellow")
 end
 
 function love.update(dt)
