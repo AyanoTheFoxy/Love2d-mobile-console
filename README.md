@@ -26,3 +26,11 @@ function love.update(dt)
     console:update() --update the cosole
 end
 ```
+
+#color list
+- red
+- green
+- blue
+- purple
+- yellow
+- ciano
