@@ -27,7 +27,7 @@ function love.update(dt)
 end
 ```
 
-#color list
+# color list
 - red
 - green
 - blue
